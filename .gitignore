@@ -1,0 +1,24 @@
+.DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Logs
+*.log
+logs/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Local DB/storage
+db_volumes/
+
+# Build outputs
+target/
+build/
